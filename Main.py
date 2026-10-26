@@ -68,7 +68,7 @@ setupJson()
 
 #Function that replaces naughty bad words with [REDACTED]
 def cleanseContent(content):
-    import json
+    import jsonnnn
 
     #Open the banned words json
     with open('wordList.json', 'r') as f:
